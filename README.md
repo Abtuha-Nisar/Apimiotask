@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Visual Interaction Selector
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project implements a Visual Interaction Selector tool using React. The tool allows users to enter "selection mode," where they can interact with different elements on a webpage. Clicking on an element marks it for tracking, and simulated events are sent to Google Tag Manager (GTM) for each interaction.
 
-In the project directory, you can run:
+## Approach
 
-### `npm start`
+- **React Components:** The interactive elements are represented as React components, and state management is handled using React hooks.
+- **Event Simulation:** Simulated events are logged to the console for demonstration purposes. In a real-world scenario, these events would be sent to GTM.
+- **CSS Styling:** The styling is done using CSS, and interactive elements are visually highlighted during the selection mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Challenges Faced
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **State Management:** Ensuring accurate and efficient state management, especially when dealing with multiple interactive elements, required careful consideration.
+- **Event Simulation:** Simulating events and integrating with GTM in a real-world scenario might present additional challenges.
 
-### `npm test`
+## How to Run and Test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+# Navigate to Project Directory:
+cd your-repository
+# Install Dependencies:
 
-### `npm run build`
+npm install
+# Run the Application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
+This will start the development server and open the application in your default web browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Enter Selection Mode:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Click the "Enter Selection Mode" button to start selecting interactive elements.
+Mark Elements for Tracking:
 
-### `npm run eject`
+Click on interactive elements to mark them for tracking.
+Exit Selection Mode:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Click the "Exit Selection Mode" button to stop selection mode and send simulated events to GTM.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Technologies Used
+React
+CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#screenshot
+![image](https://github.com/Abtuha-Nisar/Apimiotask/assets/111420352/654cb375-6861-4e3a-8d28-ed7cfe2e8276)
+![image](https://github.com/Abtuha-Nisar/Apimiotask/assets/111420352/90172ad0-e202-404b-a245-b770301c15c1)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
