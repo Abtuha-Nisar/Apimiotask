@@ -19,7 +19,7 @@ This project implements a Visual Interaction Selector tool using React. The tool
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+  
 # Navigate to Project Directory:
 cd your-repository
 # Install Dependencies:
