@@ -15,12 +15,10 @@ This project implements a Visual Interaction Selector tool using React. The tool
 - **State Management:** Ensuring accurate and efficient state management, especially when dealing with multiple interactive elements, required careful consideration.
 - **Event Simulation:** Simulating events and integrating with GTM in a real-world scenario might present additional challenges.
 
-## How to Run and Test
+## How to Run
 
 1. **Clone the Repository:**
-   ```bash
-   https://github.com/Abtuha-Nisar/Apimiotask.git
- 
+   
 # Navigate to Project Directory:
 cd your-repository
 # Install Dependencies:
