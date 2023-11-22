@@ -18,8 +18,8 @@ This project implements a Visual Interaction Selector tool using React. The tool
 ## How to Run and Test
 
 1. **Clone the Repository:**
-   ```bash
-  https://github.com/Abtuha-Nisar/Apimiotask.git
+   ```bash https://github.com/Abtuha-Nisar/Apimiotask.git
+ 
 # Navigate to Project Directory:
 cd your-repository
 # Install Dependencies:
